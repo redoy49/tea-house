@@ -30,11 +30,11 @@
       };
     </script>
   </head>
-  <body>
+  <body class="">
     <!-- Main content -->
-    <main class="max-w-7xl mx-auto px-16 lg:px-28">
+    <main class="max-w-7xl mx-auto px-16 lg:px-28 border border-red-500">
       <!-- Header section -->
-      <header class="flex pt-10 mb-20 border border-red-500">
+      <header class="md:flex pt-10 mb-20 border border-red-500">
         <!-- Text content -->
         <div>
           <h1 class="text-5xl md:text-6xl font-bold">
@@ -63,7 +63,7 @@
           </div>
           <!-- Card -->
           <div
-            class="flex items-center bg-fuchsia-50 shadow-lg p-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32"
+            class="flex items-center bg-fuchsia-50 shadow-lg p-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-28"
           >
             <!-- Icon -->
             <div><i class="fa-solid fa-star text-2xl text-yellow-400"></i></div>
@@ -75,6 +75,65 @@
           </div>
         </div>
       </header>
+
+      <!-- Feature products section -->
+      <section class="py-8 lg:py-24">
+        <!-- Title -->
+        <div class="text-center mb-8">
+          <h2 class="text-3xl mb-2 md:text-4xl font-bold md:mb-5">
+            Our Featured Products
+          </h2>
+          <p class="text-gray-600 md:max-w-4xl mb-12 mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- Grid card -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="text-center rounded-xl bg-linear-to-b from-slate-100 to to-gray-50 overflow-hidden"
+          >
+            <img class="py-8 mx-auto" src="images/tea-1.png" alt="" />
+            <h2 class="font-bold text-xl mb-2">Milk Tea</h2>
+            <p class="px-6 pb-6 text-gray-600">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="text-center rounded-xl bg-linear-to-b from-slate-100 to to-gray-50 overflow-hidden"
+          >
+            <img class="py-8 mx-auto" src="images/tea-2.png" alt="" />
+            <h2 class="font-bold text-xl mb-2">Black Tea</h2>
+            <p class="px-6 pb-6 text-gray-600">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="text-center rounded-xl bg-linear-to-b from-slate-100 to to-gray-50 overflow-hidden"
+          >
+            <img class="py-8 mx-auto" src="images/tea-3.png" alt="" />
+            <h2 class="font-bold text-xl mb-2">Lemon Tea</h2>
+            <p class="px-6 pb-6 text-gray-600">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="text-center rounded-xl bg-linear-to-b from-slate-100 to to-gray-50 overflow-hidden"
+          >
+            <img class="py-8 mx-auto" src="images/tea-4.png" alt="" />
+            <h2 class="font-bold text-xl mb-2">Green Tea</h2>
+            <p class="px-6 pb-6 text-gray-600">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
