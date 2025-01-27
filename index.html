@@ -25,12 +25,15 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              manrope: ["Manrope", serif],
+            },
           },
         },
       };
     </script>
   </head>
-  <body class="">
+  <body class="font-manrope">
     <!-- Main content -->
     <main class="max-w-7xl mx-auto px-16 lg:px-28">
       <!-- Header section -->
@@ -204,10 +207,11 @@
 
           <!-- Card content -->
           <div class="relative">
-
             <!-- Middle card -->
             <div class="absolute">
-              <div class="relative bg-white rounded-xl px-10 py-10 z-10  top-36 md:-left-28">
+              <div
+                class="relative bg-white rounded-xl px-10 py-10 z-10 top-36 md:-left-28"
+              >
                 <!-- Top corner img -->
                 <div class="absolute -top-4 -left-4 bg-slate-100 rounded-full">
                   <img class="p-1" src="images/client.png" alt="" />
@@ -225,7 +229,9 @@
             </div>
 
             <!-- Top card -->
-            <div class="relative bg-white rounded-xl px-10 py-10 opacity-25 mb-10">
+            <div
+              class="relative bg-white rounded-xl px-10 py-10 opacity-25 mb-10"
+            >
               <!-- Top corner img -->
               <div class="absolute -top-4 -left-4 bg-slate-100 rounded-full">
                 <img class="p-1" src="images/client.png" alt="" />
@@ -262,8 +268,118 @@
           </div>
         </div>
       </section>
+
+      <!-- News & event section -->
+      <div></div>
     </main>
-    <footer></footer>
+    <!-- Footer section -->
+    <footer
+      class="bg-red-200 text-slate-500 px-10 py-16 md:px-28 max-w-7xl mx-auto"
+    >
+      <div class="px-4 mx-auto">
+        <!-- Footer top -->
+        <div class="mb-8 flex justify-between">
+          <img src="images/cup.png" alt="" />
+          <div class="flex items-center gap-10">
+            <h4 class="text-xl font-medium leading-10">
+              Ready to get strated?
+            </h4>
+            <button
+              class="bg-gradient-to-r from-red-400 to-orange-500 rounded-lg px-6 py-3 text-white font-bold text-xl"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- Footer middle -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- First column -->
+          <div>
+            <h3 class="text-xl font-semibold text-slate-700 mb-6">
+              Quick Links
+            </h3>
+            <ul class="space-y-3">
+              <li><a class="hover:text-orange-400" href="">Home</a></li>
+              <li><a class="hover:text-orange-400" href="">About Us</a></li>
+              <li><a class="hover:text-orange-400" href="">Insurance</a></li>
+              <li>
+                <a class="hover:text-orange-400" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Second column -->
+          <div>
+            <h3 class="text-xl font-semibold text-slate-700 mb-6">
+              Our Service
+            </h3>
+            <ul class="space-y-3">
+              <li>
+                <a class="hover:text-orange-400" href="">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-400" href="">Car Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-400" href="">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-400" href="">House Insurance</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Third column -->
+          <div>
+            <h3 class="text-xl font-semibold text-slate-700 mb-6">Help</h3>
+            <ul class="space-y-3">
+              <li><a class="hover:text-orange-400" href="">FAQs</a></li>
+              <li><a class="hover:text-orange-400" href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Fourth column -->
+          <div>
+            <h3 class="text-xl font-semibold text-slate-700 mb-6">
+              Subscribe to our newsletter
+            </h3>
+            <!-- <form action="" class="flex gap-5">
+              <input class="bg-transparent border-b-1" type="email" placeholder="Email address">
+              <button class="bg-gradient-to-r from-red-400 to-orange-500 p-3 rounded-full text-white font-bold text-xl"><i class="fa-solid fa-chevron-right text-white"></i></button>
+            </form> -->
+            <div class="flex flex-col space-y-2 mb-4">
+              <div>
+                <input
+                  class="bg-transparent border-b-1 border-black w-4/6"
+                  placeholder="Email address"
+                  type="text"
+                />
+                <i
+                  class="fa-solid fa-chevron-right w-7 h-7 bg-orange-400 inline-flex rounded-full justify-center items-center"
+                ></i>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <a class="hover:text-orange-400 block text-2xl" href="">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a class="hover:text-orange-400 block text-2xl" href="">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a class="hover:text-orange-400 block text-2xl" href="">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer bottom -->
+        <div class="mt-12">
+          <p class="text-center text-sm">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 
